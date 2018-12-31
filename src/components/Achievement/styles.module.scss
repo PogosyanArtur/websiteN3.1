@@ -1,0 +1,36 @@
+@import '../../styles/index.scss';
+
+.Achievement{
+    background-color: $accent;
+    @include container();
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Item{
+    font-family: $ff-alpha;
+    display: inline-block;
+    padding: 0 40px;
+    text-align: center;
+    border-right: 1px solid $white;
+    border-left: 1px solid $white;
+}
+
+.Title {
+    font-size: 60px;
+    color:$white;
+    font-family: inherit;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.Text {
+    font-size: 22px;
+    color:$main1;
+    font-family: inherit;
+    text-transform: unset;
+    margin: 0;
+    padding: 0;
+}

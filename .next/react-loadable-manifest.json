@@ -1,0 +1,582 @@
+{
+  "undefined": [
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 5,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 13,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 15,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 16,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 17,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./styels.module.scss": [
+    {
+      "id": "./src/components/Banner/styels.module.scss",
+      "name": "./src/components/Banner/styels.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./styles.module.scss": [
+    {
+      "id": "./src/components/AboutUs/styles.module.scss",
+      "name": "./src/components/AboutUs/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/NavigationLink/styles.module.scss",
+      "name": "./src/components/NavigationLink/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/Title/styles.module.scss",
+      "name": "./src/components/Title/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/Logo/styles.module.scss",
+      "name": "./src/components/Logo/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/Achievement/styles.module.scss",
+      "name": "./src/components/Achievement/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/HamburgerIcon/styles.module.scss",
+      "name": "./src/components/HamburgerIcon/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/Products/styles.module.scss",
+      "name": "./src/components/Products/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/Navigation/styles.module.scss",
+      "name": "./src/components/Navigation/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/TopLine/styles.module.scss",
+      "name": "./src/components/TopLine/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/Card/styles.module.scss",
+      "name": "./src/components/Card/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/ContactItem/styles.module.scss",
+      "name": "./src/components/ContactItem/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./src/components/NavigationLinks/styles.module.scss",
+      "name": "./src/components/NavigationLinks/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./style.scss": [
+    {
+      "id": "./layout/style.scss",
+      "name": "./layout/style.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./noop": [
+    {
+      "id": "./node_modules/next/dist/client/noop.js",
+      "name": "./node_modules/next/dist/client/noop.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    }
+  ],
+  "../layout": [
+    {
+      "id": "./layout/index.jsx",
+      "name": "./layout/index.jsx",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../core-js/array/from": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/core-js/array/from.js",
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/array/from.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../core-js/is-iterable": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js",
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "@babel/runtime-corejs2/core-js/set": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/core-js/set.js",
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/set.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./arrayWithoutHoles": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js",
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/asyncToGenerator": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/helpers/asyncToGenerator.js",
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/asyncToGenerator.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/interopRequireWildcard": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js",
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./iterableToArray": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js",
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./nonIterableSpread": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js",
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/toConsumableArray": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js",
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "@babel/runtime-corejs2/regenerator": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/regenerator/index.js",
+      "name": "./node_modules/@babel/runtime-corejs2/regenerator/index.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "@fortawesome/fontawesome-svg-core": [
+    {
+      "id": "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js",
+      "name": "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "@fortawesome/free-solid-svg-icons": [
+    {
+      "id": "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js",
+      "name": "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "@fortawesome/react-fontawesome": [
+    {
+      "id": "./node_modules/@fortawesome/react-fontawesome/index.es.js",
+      "name": "./node_modules/@fortawesome/react-fontawesome/index.es.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "core-js/library/fn/array/from": [
+    {
+      "id": "./node_modules/core-js/library/fn/array/from.js",
+      "name": "./node_modules/core-js/library/fn/array/from.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "core-js/library/fn/is-iterable": [
+    {
+      "id": "./node_modules/core-js/library/fn/is-iterable.js",
+      "name": "./node_modules/core-js/library/fn/is-iterable.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "core-js/library/fn/set": [
+    {
+      "id": "./node_modules/core-js/library/fn/set.js",
+      "name": "./node_modules/core-js/library/fn/set.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./_create-property": [
+    {
+      "id": "./node_modules/core-js/library/modules/_create-property.js",
+      "name": "./node_modules/core-js/library/modules/_create-property.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../modules/core.is-iterable": [
+    {
+      "id": "./node_modules/core-js/library/modules/core.is-iterable.js",
+      "name": "./node_modules/core-js/library/modules/core.is-iterable.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../../modules/es6.array.from": [
+    {
+      "id": "./node_modules/core-js/library/modules/es6.array.from.js",
+      "name": "./node_modules/core-js/library/modules/es6.array.from.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../modules/es6.set": [
+    {
+      "id": "./node_modules/core-js/library/modules/es6.set.js",
+      "name": "./node_modules/core-js/library/modules/es6.set.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../modules/es7.set.from": [
+    {
+      "id": "./node_modules/core-js/library/modules/es7.set.from.js",
+      "name": "./node_modules/core-js/library/modules/es7.set.from.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../modules/es7.set.of": [
+    {
+      "id": "./node_modules/core-js/library/modules/es7.set.of.js",
+      "name": "./node_modules/core-js/library/modules/es7.set.of.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../modules/es7.set.to-json": [
+    {
+      "id": "./node_modules/core-js/library/modules/es7.set.to-json.js",
+      "name": "./node_modules/core-js/library/modules/es7.set.to-json.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "dom-helpers/class/addClass": [
+    {
+      "id": "./node_modules/dom-helpers/class/addClass.js",
+      "name": "./node_modules/dom-helpers/class/addClass.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./hasClass": [
+    {
+      "id": "./node_modules/dom-helpers/class/hasClass.js",
+      "name": "./node_modules/dom-helpers/class/hasClass.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "dom-helpers/class/removeClass": [
+    {
+      "id": "./node_modules/dom-helpers/class/removeClass.js",
+      "name": "./node_modules/dom-helpers/class/removeClass.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "@babel/runtime/helpers/interopRequireDefault": [
+    {
+      "id": "./node_modules/dom-helpers/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "name": "./node_modules/dom-helpers/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./head": [
+    {
+      "id": "./node_modules/next/dist/lib/head.js",
+      "name": "./node_modules/next/dist/lib/head.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./side-effect": [
+    {
+      "id": "./node_modules/next/dist/lib/side-effect.js",
+      "name": "./node_modules/next/dist/lib/side-effect.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../lib/utils": [
+    {
+      "id": "./node_modules/next/dist/lib/utils.js",
+      "name": "./node_modules/next/dist/lib/utils.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "next/head": [
+    {
+      "id": "./node_modules/next/head.js",
+      "name": "./node_modules/next/head.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "react-lifecycles-compat": [
+    {
+      "id": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "name": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "react-transition-group/CSSTransition": [
+    {
+      "id": "./node_modules/react-transition-group/CSSTransition.js",
+      "name": "./node_modules/react-transition-group/CSSTransition.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./Transition": [
+    {
+      "id": "./node_modules/react-transition-group/Transition.js",
+      "name": "./node_modules/react-transition-group/Transition.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/PropTypes": [
+    {
+      "id": "./node_modules/react-transition-group/utils/PropTypes.js",
+      "name": "./node_modules/react-transition-group/utils/PropTypes.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "regenerator-runtime": [
+    {
+      "id": "./node_modules/regenerator-runtime/runtime-module.js",
+      "name": "./node_modules/regenerator-runtime/runtime-module.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./runtime": [
+    {
+      "id": "./node_modules/regenerator-runtime/runtime.js",
+      "name": "./node_modules/regenerator-runtime/runtime.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../ContactItem": [
+    {
+      "id": "./src/components/ContactItem/index.jsx",
+      "name": "./src/components/ContactItem/index.jsx",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../ContactMail": [
+    {
+      "id": "./src/components/ContactMail/index.jsx",
+      "name": "./src/components/ContactMail/index.jsx",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../ContactTelephone": [
+    {
+      "id": "./src/components/ContactTelephone/index.jsx",
+      "name": "./src/components/ContactTelephone/index.jsx",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../HamburgerIcon": [
+    {
+      "id": "./src/components/HamburgerIcon/index.jsx",
+      "name": "./src/components/HamburgerIcon/index.jsx",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../Logo": [
+    {
+      "id": "./src/components/Logo/index.jsx",
+      "name": "./src/components/Logo/index.jsx",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../src/components/Navigation": [
+    {
+      "id": "./src/components/Navigation/index.jsx",
+      "name": "./src/components/Navigation/index.jsx",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../NavigationLink": [
+    {
+      "id": "./src/components/NavigationLink/index.jsx",
+      "name": "./src/components/NavigationLink/index.jsx",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../NavigationLinks": [
+    {
+      "id": "./src/components/NavigationLinks/index.jsx",
+      "name": "./src/components/NavigationLinks/index.jsx",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../src/components/TopLine": [
+    {
+      "id": "./src/components/TopLine/index.jsx",
+      "name": "./src/components/TopLine/index.jsx",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "../WidthScreen": [
+    {
+      "id": "./src/components/WidthScreen/index.jsx",
+      "name": "./src/components/WidthScreen/index.jsx",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ]
+}

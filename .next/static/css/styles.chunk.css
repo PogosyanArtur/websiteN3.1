@@ -253,6 +253,9 @@
   @media (min-width: 2400px) {
     .Achievement_77XBQ {
       min-width: 2300px; } }
+  @media screen and (max-width: 960px) {
+    .Achievement_77XBQ {
+      flex-direction: column; } }
 
 .Item_1Ghbo {
   font-family: "PT Sans", sans-serif;
@@ -261,6 +264,9 @@
   text-align: center;
   border-right: 1px solid #fff;
   border-left: 1px solid #fff; }
+  @media screen and (max-width: 960px) {
+    .Item_1Ghbo {
+      padding-top: 30px; } }
 
 .Title_1p4Ax {
   font-size: 60px;
@@ -269,6 +275,9 @@
   white-space: nowrap;
   margin: 0;
   padding: 0; }
+  @media screen and (max-width: 960px) {
+    .Title_1p4Ax {
+      font-size: 50px; } }
 
 .Text_u42Fs {
   font-size: 22px;
@@ -277,6 +286,9 @@
   text-transform: unset;
   margin: 0;
   padding: 0; }
+  @media screen and (max-width: 960px) {
+    .Text_u42Fs {
+      font-size: 20px; } }
 
 html, body {
   margin: 0;

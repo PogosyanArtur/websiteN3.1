@@ -6,6 +6,10 @@
     padding: 70px 0;
     display: flex;
     justify-content: center;
+
+    @include down(md){
+        flex-direction: column
+    }
 }
 
 .Item{
@@ -15,6 +19,10 @@
     text-align: center;
     border-right: 1px solid $white;
     border-left: 1px solid $white;
+
+    @include down(md){
+        padding-top: 30px;
+    }
 }
 
 .Title {
@@ -24,6 +32,10 @@
     white-space: nowrap;
     margin: 0;
     padding: 0;
+
+    @include down(md){
+        font-size: 50px;
+    }
 }
 
 .Text {
@@ -33,4 +45,8 @@
     text-transform: unset;
     margin: 0;
     padding: 0;
+
+    @include down(md){
+        font-size: 20px;
+    }
 }

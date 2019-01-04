@@ -50,6 +50,14 @@ export class Navbar extends Component {
 		window.removeEventListener("resize", this.closeNavigation);
 	}
 
+	handleSetActive = (e, to) => {
+		const items = [ ...this.state.items ]
+		items.forEach(item => item.active = "")
+		const itemIndex = items.findIndex(item => item.to === to)
+		items[itemIndex].active = true
+		this.setState({items})
+	}
+
 	render() {
 
 		const isMobile = this.props.screen.mdDown
@@ -58,16 +66,13 @@ export class Navbar extends Component {
 		return (
 			<div className={`${styles.Navbar}`}>
 				<div className={`${styles.Container}`}>
-					<NoSSR>
-						<div className={`${styles.LogoBox} `}>
-							{!showNavigation && <Logo />}
-						</div>
-					</NoSSR>
-
+					<div className={`${styles.LogoBox} `}>
+						{!showNavigation && <Logo />}
+					</div>
 
 					{!isMobile
 						&& <NoSSR>
-							<NavigationLinks items={items} handleSetActive={this.handleSetActive} />
+							<NavigationLinks items={items} onSetActive={(e, to) => this.handleSetActive(e, to)}/>
 						</NoSSR>
 					}
 
@@ -91,7 +96,9 @@ export class Navbar extends Component {
 						<NavigationLinks
 							items={items}
 							view="murky"
-							className={` ${styles.Navbar__Navigation} `} />
+							className={` ${styles.Navbar__Navigation} `} 
+							onSetActive={(e, to) => this.handleSetActive(e, to)}
+							click={this.closeNavigation}/>
 					</div>
 				</CSSTransition>
 

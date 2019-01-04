@@ -30,13 +30,13 @@ var Layout = function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -44,7 +44,7 @@ var Layout = function Layout(props) {
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -52,25 +52,25 @@ var Layout = function Layout(props) {
     content: "width=device-width, initial-scale=1, shrink-to-fit=no",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   }, "React App")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_TopLine__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_Navigation__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: this
   }), children);
@@ -435,6 +435,14 @@ var _jsxFileName = "C:\\Users\\pa160\\Desktop\\projects\\websiteN3.1\\src\\compo
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -514,6 +522,22 @@ function (_Component) {
       });
     });
 
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "handleSetActive", function (e, to) {
+      var items = _toConsumableArray(_this.state.items);
+
+      items.forEach(function (item) {
+        return item.active = "";
+      });
+      var itemIndex = items.findIndex(function (item) {
+        return item.to === to;
+      });
+      items[itemIndex].active = true;
+
+      _this.setState({
+        items: items
+      });
+    });
+
     return _this;
   }
 
@@ -530,6 +554,8 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
+      var _this2 = this;
+
       var isMobile = this.props.screen.mdDown;
       var _this$state = this.state,
           showNavigation = _this$state.showNavigation,
@@ -538,47 +564,43 @@ function (_Component) {
         className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Navbar),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 67
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Container),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_3___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 68
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.LogoBox, " "),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 69
         },
         __self: this
       }, !showNavigation && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Logo__WEBPACK_IMPORTED_MODULE_5__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 70
         },
         __self: this
-      }))), !isMobile && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      })), !isMobile && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_3___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 74
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavigationLinks__WEBPACK_IMPORTED_MODULE_4__["default"], {
         items: items,
-        handleSetActive: this.handleSetActive,
+        onSetActive: function onSetActive(e, to) {
+          return _this2.handleSetActive(e, to);
+        },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 75
         },
         __self: this
       }))), isMobile && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HamburgerIcon__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -587,7 +609,7 @@ function (_Component) {
         className: _styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Navbar__HamburgerIcon,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 82
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_transition_group_CSSTransition__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -602,23 +624,27 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 85
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Navbar__Backdrop),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 95
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavigationLinks__WEBPACK_IMPORTED_MODULE_4__["default"], {
         items: items,
         view: "murky",
         className: " ".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Navbar__Navigation, " "),
+        onSetActive: function onSetActive(e, to) {
+          return _this2.handleSetActive(e, to);
+        },
+        click: this.closeNavigation,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 96
         },
         __self: this
       }))));
@@ -677,7 +703,8 @@ var NavigationLink = function NavigationLink(props) {
       to = props.to,
       view = props.view,
       active = props.active,
-      handleSetActive = props.handleSetActive;
+      onSetActive = props.onSetActive,
+      click = props.click;
   var viewStatus = view ? _styles_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a["Link_view_".concat(view)] : '';
   var activeLinkState = active ? _styles_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Link_active : '';
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -686,18 +713,19 @@ var NavigationLink = function NavigationLink(props) {
     spy: true,
     smooth: true,
     offset: -100,
-    duration: 500 // onSetActive={this.handleSetActive}
-    ,
+    duration: 500,
+    onSetActive: onSetActive,
     delay: 10,
+    onClick: click,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 35
     },
     __self: this
   }, label));
@@ -749,26 +777,30 @@ var Links = function Links(props) {
       className = props.className,
       style = props.style,
       items = props.items,
-      handleSetActive = props.handleSetActive;
+      _onSetActive = props.onSetActive,
+      click = props.click;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.NavigationLinks, " ").concat(className),
     style: style,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }, items.map(function (item, index) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavigationLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
       label: item.label,
       active: item.active,
-      handleSetActive: handleSetActive,
+      onSetActive: function onSetActive(e) {
+        return _onSetActive(e, item.to);
+      },
       to: item.to,
       key: index,
       view: view,
+      click: click,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 21
       },
       __self: this
     });

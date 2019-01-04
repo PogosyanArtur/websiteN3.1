@@ -45,12 +45,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .LogoBox {
     background-color: $accent;
     width: 170px;
+    max-width: 170px;
     height: 100%;
     margin-left: 50px;
     display: flex;

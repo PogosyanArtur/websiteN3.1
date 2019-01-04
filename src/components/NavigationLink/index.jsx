@@ -8,7 +8,9 @@ const NavigationLink = (props) => {
         to,
         view,
         active,
-        handleSetActive
+        onSetActive,
+        click
+
     } = props
     
     const viewStatus = view
@@ -27,8 +29,9 @@ const NavigationLink = (props) => {
                 smooth={true} 
                 offset={-100} 
                 duration={500}
-                // onSetActive={this.handleSetActive}
-                delay={10}>
+                onSetActive={onSetActive}
+                delay={10}
+                onClick={click}>                
                <span>{label}</span> 
             </Link>
     )

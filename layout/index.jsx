@@ -5,7 +5,6 @@ import './style.scss'
 import Navigation  from '../src/components/Navigation'
 import TopLine from '../src/components/TopLine'
 
-
 const Layout = (props) => {
     const {
         children

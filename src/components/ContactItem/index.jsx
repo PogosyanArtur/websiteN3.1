@@ -16,7 +16,7 @@ const ContactItem = (props) => {
   return (
     <React.Fragment>
 
-      {href
+      { href
         ? <a href={href} className={`${styles.Link}`}>
           {icon
             && <NoSSR>
@@ -25,14 +25,13 @@ const ContactItem = (props) => {
           }
           <span className={`${styles.Label}`}>{label}</span>
         </a>
-        : <span className={`${styles.Link}`}>}
-
-              {icon
+        : <span className={`${styles.Link}`}>
+          {icon
             && <NoSSR>
               <Icon icon={icon} size={size} rotation={rotation} />
             </NoSSR>}
-          <span className={`${styles.Label}`}>{label}</span>
-        </span>}
+          <span className={`${styles.Label}`}> { label }</span>
+        </span> }
     </React.Fragment>
 
   )

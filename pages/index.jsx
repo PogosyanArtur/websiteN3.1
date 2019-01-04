@@ -23,6 +23,11 @@ class index extends Component {
         <AboutUs/>
         <Achievement />
         <Contacts/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       </Layout>
     )
   }

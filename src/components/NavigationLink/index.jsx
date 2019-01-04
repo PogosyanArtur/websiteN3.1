@@ -27,7 +27,7 @@ const NavigationLink = (props) => {
                 to={to} 
                 spy={true} 
                 smooth={true} 
-                offset={-100} 
+                offset={-90} 
                 duration={500}
                 onSetActive={onSetActive}
                 delay={10}

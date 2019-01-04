@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-scroll";
 import styles from './styles.module.scss'
 
 const NavigationLink = (props) => {
@@ -6,18 +7,30 @@ const NavigationLink = (props) => {
         label,
         to,
         view,
-        active
+        active,
+        handleSetActive
     } = props
     
     const viewStatus = view
-        && styles[`Link_view_${view}`]
+        ? styles[`Link_view_${view}`]
+        : ''
 
-    const activeLinkState = active && styles.Link_active
+    const activeLinkState = active 
+        ? styles.Link_active
+        : ''
 
     return (
-            <a className={`${styles.Link} ${viewStatus} ${activeLinkState}`} to={to}>
+            <Link 
+                className={`${styles.Link} ${viewStatus} ${activeLinkState}`} 
+                to={to} 
+                spy={true} 
+                smooth={true} 
+                offset={-100} 
+                duration={500}
+                // onSetActive={this.handleSetActive}
+                delay={10}>
                <span>{label}</span> 
-            </a>
+            </Link>
     )
 }
 

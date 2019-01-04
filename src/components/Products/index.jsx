@@ -23,7 +23,7 @@ const Products = () => {
         }
     ]
     return (
-            <section>
+            <section id='products'>
                 <Title className={styles.Title}>продукты</Title>
                 <div className={styles.Cards}>
                     {

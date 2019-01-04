@@ -131,7 +131,8 @@
   height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.1); }
 
 .Label_1p9Jh {
   color: #3d5975;
@@ -171,7 +172,8 @@
 .AboutUs_eMe8p {
   margin-top: 80px;
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.1); }
   @media screen and (max-width: 1280px) {
     .AboutUs_eMe8p {
       justify-content: stretch; } }
@@ -226,6 +228,9 @@
     .Image_1e_nn {
       height: 300px;
       width: 100%; } }
+
+.Map_2ljEU {
+  margin-top: 60px; }
 
 .Achievement_77XBQ {
   background-color: #edcd1f;
@@ -293,6 +298,9 @@
 html, body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box; }
+
+* {
   box-sizing: border-box; }
 
 .NavigationLinks_1Z1mE {

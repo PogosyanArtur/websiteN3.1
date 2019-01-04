@@ -10,13 +10,14 @@ const Links = props => {
 			view, 
 			className, 
 			style, 
-			items 
+			items,
+			handleSetActive
 		} = props;
 
 	return (
 		<div className={`${styles.NavigationLinks} ${className}`} style={style}>
 			{items.map((item, index) => {
-				return <NavigationLink label={item.label} active={item.active} to={item.to} key={index} view={view} />;
+				return <NavigationLink label={item.label} active={item.active} handleSetActive={handleSetActive} to={item.to} key={index} view={view} />;
 			})}
 		</div>
 	);

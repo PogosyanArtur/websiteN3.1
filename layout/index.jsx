@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import './style.scss'
-import Navbar  from '../src/components/Navigation'
+import Navigation  from '../src/components/Navigation'
 import TopLine from '../src/components/TopLine'
 
 
@@ -19,7 +19,7 @@ const Layout = (props) => {
                 <title>React App</title>
             </Head>
             <TopLine />
-            <Navbar />
+            <Navigation />
             {children}
         </React.Fragment>
     )

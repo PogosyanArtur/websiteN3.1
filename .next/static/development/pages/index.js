@@ -5142,7 +5142,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_components_Banner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/Banner */ "./src/components/Banner/index.jsx");
 /* harmony import */ var _src_components_Products__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/components/Products */ "./src/components/Products/index.jsx");
 /* harmony import */ var _src_components_AboutUs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/components/AboutUs */ "./src/components/AboutUs/index.jsx");
+/* harmony import */ var _src_components_Contacts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/components/Contacts */ "./src/components/Contacts/index.jsx");
+/* harmony import */ var _src_components_Achievement__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../src/components/Achievement */ "./src/components/Achievement/index.jsx");
 var _jsxFileName = "C:\\Users\\pa160\\Desktop\\projects\\websiteN3.1\\pages\\index.jsx";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
 
 
 var Layout = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(function () {
@@ -5174,33 +5195,64 @@ var Layout = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(function () {
 
 
 
-var index = function index() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Layout, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_Banner__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_Products__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_AboutUs__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }));
-};
+
+
+var index =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(index, _Component);
+
+  function index() {
+    _classCallCheck(this, index);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(index).apply(this, arguments));
+  }
+
+  _createClass(index, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Layout, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_Banner__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_Products__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_AboutUs__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_Achievement__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_Contacts__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }));
+    }
+  }]);
+
+  return index;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (index);
     (function (Component, route) {
@@ -5239,32 +5291,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles.module.scss */ "./src/components/AboutUs/styles.module.scss");
 /* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Title */ "./src/components/Title/index.jsx");
-/* harmony import */ var _Achievement__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Achievement */ "./src/components/Achievement/index.jsx");
 var _jsxFileName = "C:\\Users\\pa160\\Desktop\\projects\\websiteN3.1\\src\\components\\AboutUs\\index.jsx";
 
 
 
 
-
 var AboutUs = function AboutUs() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    id: "aboutUs",
     className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.AboutUs),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Content),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Title__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -5272,27 +5317,21 @@ var AboutUs = function AboutUs() {
     lineLeft: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
   }, "\u043E \u043D\u0430\u0441"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Context),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   }, "\u042D\u0442\u043E \u0442\u0435\u043A\u0441\u0442. \u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043E\u0434\u0438\u043D \u0440\u0430\u0437 \u0438 \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \xAB\u0420\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0442\u0435\u043A\u0441\u0442\xBB \u0438\u043B\u0438 \u043F\u0440\u043E\u0441\u0442\u043E \u043A\u043B\u0438\u043A\u043D\u0438\u0442\u0435 \u0434\u0432\u0430\u0436\u0434\u044B, \u0447\u0442\u043E\u0431\u044B \u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0441\u0432\u043E\u0439 \u0442\u0435\u043A\u0441\u0442 \u0438 \u043D\u0430\u0441\u0442\u0440\u043E\u0438\u0442\u044C \u0448\u0440\u0438\u0444\u0442. \u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u043F\u0435\u0440\u0435\u043C\u0435\u0441\u0442\u0438\u0442\u044C \u0435\u0433\u043E \u0432 \u043B\u044E\u0431\u043E\u0435 \u043C\u0435\u0441\u0442\u043E \u043D\u0430 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0435. \u0420\u0430\u0441\u0441\u043A\u0430\u0436\u0438\u0442\u0435 \u043F\u043E\u0441\u0435\u0442\u0438\u0442\u0435\u043B\u044F\u043C \u0441\u0430\u0439\u0442\u0430 \u043E \u0441\u0435\u0431\u0435. \u0417\u0434\u0435\u0441\u044C \u0431\u0443\u0434\u0435\u0442 \u0443\u0434\u0430\u0447\u043D\u043E \u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C\u0441\u044F \u0442\u0435\u043A\u0441\u0442 \u043E \u0432\u0430\u0448\u0435\u0439 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438 \u0438 \u0443\u0441\u043B\u0443\u0433\u0430\u0445. \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u044D\u0442\u0443 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C, \u0447\u0442\u043E\u0431\u044B \u0432\u044B\u0433\u043E\u0434\u043D\u043E \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0441\u0435\u0431\u044F \u0438 \u0441\u0432\u043E\u044E \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u044E \u043A\u043B\u0438\u0435\u043D\u0442\u0430\u043C. \u0420\u0430\u0441\u0441\u043A\u0430\u0436\u0438\u0442\u0435 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0443\u044E \u0438\u0441\u0442\u043E\u0440\u0438\u044E, \u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440, \u043A\u0430\u043A \u0432\u0430\u043C \u0432 \u0433\u043E\u043B\u043E\u0432\u0443 \u043F\u0440\u0438\u0448\u043B\u0430 \u0438\u0434\u0435\u044F \u0441\u043E\u0431\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0433\u043E \u0434\u0435\u043B\u0430, \u0438 \u043E\u0431\u044A\u044F\u0441\u043D\u0438\u0442\u0435, \u0432 \u0447\u0435\u043C \u0437\u0430\u043A\u043B\u044E\u0447\u0430\u0435\u0442\u0441\u044F \u0432\u0430\u0448\u0435 \u043F\u0440\u0435\u0438\u043C\u0443\u0449\u0435\u0441\u0442\u0432\u043E \u043F\u0435\u0440\u0435\u0434 \u043A\u043E\u043D\u043A\u0443\u0440\u0435\u043D\u0442\u0430\u043C\u0438.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Image),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Achievement__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 14
     },
     __self: this
   }));
@@ -5385,6 +5424,7 @@ var _jsxFileName = "C:\\Users\\pa160\\Desktop\\projects\\websiteN3.1\\src\\compo
 var Banner = function Banner() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
     className: "".concat(_styels_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Banner),
+    id: "home",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -5486,6 +5526,122 @@ var Card = function Card(props) {
 
 /***/ }),
 
+/***/ "./src/components/Contacts/index.jsx":
+/*!*******************************************!*\
+  !*** ./src/components/Contacts/index.jsx ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Title__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Title */ "./src/components/Title/index.jsx");
+/* harmony import */ var _Map__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Map */ "./src/components/Map/index.jsx");
+/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.module.scss */ "./src/components/Contacts/styles.module.scss");
+/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_module_scss__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\pa160\\Desktop\\projects\\websiteN3.1\\src\\components\\Contacts\\index.jsx";
+
+
+
+
+
+var Contacts = function Contacts() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    id: "contacts",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Title__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "\u041A\u041E\u041D\u0422\u0410\u041A\u0422\u042B"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Map__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Map),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Contacts);
+
+/***/ }),
+
+/***/ "./src/components/Map/index.jsx":
+/*!**************************************!*\
+  !*** ./src/components/Map/index.jsx ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\pa160\\Desktop\\projects\\websiteN3.1\\src\\components\\Map\\index.jsx";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+var SimpleMap =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(SimpleMap, _Component);
+
+  function SimpleMap() {
+    _classCallCheck(this, SimpleMap);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(SimpleMap).apply(this, arguments));
+  }
+
+  _createClass(SimpleMap, [{
+    key: "render",
+    value: function render() {
+      return (// Important! Always set the container height explicitly
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: this.props.className,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 7
+          },
+          __self: this
+        })
+      );
+    }
+  }]);
+
+  return SimpleMap;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (SimpleMap);
+
+/***/ }),
+
 /***/ "./src/components/Products/index.jsx":
 /*!*******************************************!*\
   !*** ./src/components/Products/index.jsx ***!
@@ -5522,6 +5678,7 @@ var Products = function Products() {
     price: '400'
   }];
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    id: "products",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26

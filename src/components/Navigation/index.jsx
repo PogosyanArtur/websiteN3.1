@@ -1,35 +1,37 @@
 import React, { Component } from "react";
 import CSSTransition from 'react-transition-group/CSSTransition';
 import WidthScreen from '../WidthScreen'
+import NoSSR from 'react-no-ssr';
 
 import NavigationLinks from "../NavigationLinks";
 import Logo from "../Logo";
 import HamburgerIcon from "../HamburgerIcon";
 import styles from "./styles.module.scss";
 
+
 export class Navbar extends Component {
 	state = {
-		showNavigation:false,
+		showNavigation: false,
 		items: [
 			{
 				label: "главная",
-				to: "/",
+				to: "home",
 				active: true
 			},
 			{
 				label: "продукты",
-				to: "/",
-				active: false
+				to: "products",
+				active: ''
 			},
 			{
 				label: "о нас",
-				to: "/",
-				active: false
+				to: "aboutUs",
+				active: ''
 			},
 			{
 				label: "контакты",
-				to: "/",
-				active: false
+				to: "contacts",
+				active: ''
 			},
 		]
 	}
@@ -45,27 +47,35 @@ export class Navbar extends Component {
 	}
 
 	componentWillUnmount() {
-		window.removeEventListener("resize", this.closeNavigation);            
+		window.removeEventListener("resize", this.closeNavigation);
 	}
 
 	render() {
 
 		const isMobile = this.props.screen.mdDown
-		const {showNavigation, items } = this.state;
+		const { showNavigation, items } = this.state;
 
 		return (
 			<div className={`${styles.Navbar}`}>
 				<div className={`${styles.Container}`}>
+					<NoSSR>
+						<div className={`${styles.LogoBox} `}>
+							{!showNavigation && <Logo />}
+						</div>
+					</NoSSR>
 
-					<div className={`${styles.LogoBox} `}>
-						{!showNavigation && <Logo />}
-					</div>
 
-					{!isMobile && <NavigationLinks items={items} />}
+					{!isMobile
+						&& <NoSSR>
+							<NavigationLinks items={items} handleSetActive={this.handleSetActive} />
+						</NoSSR>
+					}
 
 				</div>
 
-				{isMobile && <HamburgerIcon active={showNavigation} onClicked={this.handleMenuBarToggle} className={styles.Navbar__HamburgerIcon} />}
+				{isMobile
+					&& <HamburgerIcon active={showNavigation} onClicked={this.handleMenuBarToggle} className={styles.Navbar__HamburgerIcon} />}
+
 
 				<CSSTransition
 					in={showNavigation}

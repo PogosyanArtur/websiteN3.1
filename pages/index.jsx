@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 
 import dynamic from 'next/dynamic'
 
@@ -9,16 +9,22 @@ const Layout = dynamic(() => import('../layout'), {
 import Banner from '../src/components/Banner'
 import Products from '../src/components/Products'
 import AboutUs from '../src/components/AboutUs'
+import Contacts from '../src/components/Contacts'
+import Achievement from '../src/components/Achievement'
 
 
-const index = () => {
-  return (
-    <Layout>
-      <Banner/>
-      <Products/>
-      <AboutUs/>
-    </Layout>
-  )
+class index extends Component {
+
+  render(){
+    return (
+      <Layout>
+        <Banner/>
+        <Products />
+        <AboutUs/>
+        <Achievement />
+        <Contacts/>
+      </Layout>
+    )
+  }
 }
-
 export default index

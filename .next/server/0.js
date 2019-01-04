@@ -104,9 +104,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles.module.scss */ "./src/components/ContactItem/styles.module.scss");
-/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_module_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-no-ssr */ "react-no-ssr");
+/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_no_ssr__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.module.scss */ "./src/components/ContactItem/styles.module.scss");
+/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_module_scss__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "C:\\Users\\pa160\\Desktop\\projects\\websiteN3.1\\src\\components\\ContactItem\\index.jsx";
+
 
 
 
@@ -120,41 +123,24 @@ var ContactItem = function ContactItem(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   }, href ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: href,
-    className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Link),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, icon && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
-    icon: icon,
-    size: size,
-    rotation: rotation,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Label),
+    className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Link),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, label)) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Link),
+  }, icon && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, icon && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
     icon: icon,
     size: size,
     rotation: rotation,
@@ -163,11 +149,40 @@ var ContactItem = function ContactItem(props) {
       lineNumber: 23
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Label),
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Label),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 26
+    },
+    __self: this
+  }, label)) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Link),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "}", icon && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
+    icon: icon,
+    size: size,
+    rotation: rotation,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Label),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
     },
     __self: this
   }, label)));
@@ -409,11 +424,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_transition_group_CSSTransition__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-transition-group/CSSTransition */ "react-transition-group/CSSTransition");
 /* harmony import */ var react_transition_group_CSSTransition__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_transition_group_CSSTransition__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _WidthScreen__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../WidthScreen */ "./src/components/WidthScreen/index.jsx");
-/* harmony import */ var _NavigationLinks__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../NavigationLinks */ "./src/components/NavigationLinks/index.jsx");
-/* harmony import */ var _Logo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Logo */ "./src/components/Logo/index.jsx");
-/* harmony import */ var _HamburgerIcon__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../HamburgerIcon */ "./src/components/HamburgerIcon/index.jsx");
-/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles.module.scss */ "./src/components/Navigation/styles.module.scss");
-/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_module_scss__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-no-ssr */ "react-no-ssr");
+/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_no_ssr__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _NavigationLinks__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../NavigationLinks */ "./src/components/NavigationLinks/index.jsx");
+/* harmony import */ var _Logo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Logo */ "./src/components/Logo/index.jsx");
+/* harmony import */ var _HamburgerIcon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../HamburgerIcon */ "./src/components/HamburgerIcon/index.jsx");
+/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./styles.module.scss */ "./src/components/Navigation/styles.module.scss");
+/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_module_scss__WEBPACK_IMPORTED_MODULE_7__);
 var _jsxFileName = "C:\\Users\\pa160\\Desktop\\projects\\websiteN3.1\\src\\components\\Navigation\\index.jsx";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -435,6 +452,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -465,20 +483,20 @@ function (_Component) {
       showNavigation: false,
       items: [{
         label: "главная",
-        to: "/",
+        to: "home",
         active: true
       }, {
         label: "продукты",
-        to: "/",
-        active: false
+        to: "products",
+        active: ''
       }, {
         label: "о нас",
-        to: "/",
-        active: false
+        to: "aboutUs",
+        active: ''
       }, {
         label: "контакты",
-        to: "/",
-        active: false
+        to: "contacts",
+        active: ''
       }]
     });
 
@@ -517,46 +535,59 @@ function (_Component) {
           showNavigation = _this$state.showNavigation,
           items = _this$state.items;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Navbar),
+        className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Navbar),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 59
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Container),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.LogoBox, " "),
+        className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Container),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 60
         },
         __self: this
-      }, !showNavigation && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Logo__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_3___default.a, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 61
         },
         __self: this
-      })), !isMobile && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavigationLinks__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        items: items,
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.LogoBox, " "),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 62
         },
         __self: this
-      })), isMobile && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HamburgerIcon__WEBPACK_IMPORTED_MODULE_5__["default"], {
-        active: showNavigation,
-        onClicked: this.handleMenuBarToggle,
-        className: _styles_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Navbar__HamburgerIcon,
+      }, !showNavigation && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Logo__WEBPACK_IMPORTED_MODULE_5__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 63
+        },
+        __self: this
+      }))), !isMobile && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_3___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavigationLinks__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        items: items,
+        handleSetActive: this.handleSetActive,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70
+        },
+        __self: this
+      }))), isMobile && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HamburgerIcon__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        active: showNavigation,
+        onClicked: this.handleMenuBarToggle,
+        className: _styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Navbar__HamburgerIcon,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_transition_group_CSSTransition__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -565,29 +596,29 @@ function (_Component) {
         mountOnEnter: true,
         unmountOnExit: true,
         classNames: {
-          enter: _styles_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a['FadeOut-enter'],
-          enterActive: _styles_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a['FadeOut-enter-active'],
-          exitActive: _styles_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a['FadeOut-exit-active']
+          enter: _styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a['FadeOut-enter'],
+          enterActive: _styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a['FadeOut-enter-active'],
+          exitActive: _styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a['FadeOut-exit-active']
         },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 70
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Navbar__Backdrop),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 80
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavigationLinks__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        items: items,
-        view: "murky",
-        className: " ".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Navbar__Navigation, " "),
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Navbar__Backdrop),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 90
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavigationLinks__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        items: items,
+        view: "murky",
+        className: " ".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Navbar__Navigation, " "),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
         },
         __self: this
       }))));
@@ -632,9 +663,12 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles.module.scss */ "./src/components/NavigationLink/styles.module.scss");
-/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-scroll */ "react-scroll");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles.module.scss */ "./src/components/NavigationLink/styles.module.scss");
+/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_module_scss__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "C:\\Users\\pa160\\Desktop\\projects\\websiteN3.1\\src\\components\\NavigationLink\\index.jsx";
+
 
 
 
@@ -642,21 +676,28 @@ var NavigationLink = function NavigationLink(props) {
   var label = props.label,
       to = props.to,
       view = props.view,
-      active = props.active;
-  var viewStatus = view && _styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a["Link_view_".concat(view)];
-  var activeLinkState = active && _styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Link_active;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Link, " ").concat(viewStatus, " ").concat(activeLinkState),
+      active = props.active,
+      handleSetActive = props.handleSetActive;
+  var viewStatus = view ? _styles_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a["Link_view_".concat(view)] : '';
+  var activeLinkState = active ? _styles_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Link_active : '';
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Link, " ").concat(viewStatus, " ").concat(activeLinkState),
     to: to,
+    spy: true,
+    smooth: true,
+    offset: -100,
+    duration: 500 // onSetActive={this.handleSetActive}
+    ,
+    delay: 10,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 32
     },
     __self: this
   }, label));
@@ -707,25 +748,27 @@ var Links = function Links(props) {
   var view = props.view,
       className = props.className,
       style = props.style,
-      items = props.items;
+      items = props.items,
+      handleSetActive = props.handleSetActive;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.NavigationLinks, " ").concat(className),
     style: style,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   }, items.map(function (item, index) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavigationLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
       label: item.label,
       active: item.active,
+      handleSetActive: handleSetActive,
       to: item.to,
       key: index,
       view: view,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 20
       },
       __self: this
     });

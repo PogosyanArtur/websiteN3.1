@@ -163,10 +163,10 @@ var ContactItem = function ContactItem(props) {
       lineNumber: 28
     },
     __self: this
-  }, "}", icon && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, icon && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
@@ -175,17 +175,17 @@ var ContactItem = function ContactItem(props) {
     rotation: rotation,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 31
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Label),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 33
     },
     __self: this
-  }, label)));
+  }, " ", label)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ContactItem);

@@ -4673,25 +4673,60 @@ module.exports = __webpack_require__(/*! ./dist/lib/dynamic */ "./node_modules/n
 
 /***/ }),
 
+/***/ "./node_modules/next/node_modules/webpack/buildin/harmony-module.js":
+/*!*******************************************!*\
+  !*** (webpack)/buildin/harmony-module.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function(originalModule) {
+	if (!originalModule.webpackPolyfill) {
+		var module = Object.create(originalModule);
+		// module.parent = undefined by default
+		if (!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function() {
+				return module.i;
+			}
+		});
+		Object.defineProperty(module, "exports", {
+			enumerable: true
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_28e76e2d2e17dda0d4a0 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_28e76e2d2e17dda0d4a0 */ "dll-reference dll_28e76e2d2e17dda0d4a0"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_28e76e2d2e17dda0d4a0 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_28e76e2d2e17dda0d4a0 */ "dll-reference dll_28e76e2d2e17dda0d4a0"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -5299,12 +5334,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_28e76e2d2e17dda0d4a0 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_28e76e2d2e17dda0d4a0 */ "dll-reference dll_28e76e2d2e17dda0d4a0"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -5410,47 +5445,12 @@ module.exports = __webpack_require__(/*! ./dist/index */ "./node_modules/react-n
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_28e76e2d2e17dda0d4a0 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/react/index.js");
-
-/***/ }),
-
-/***/ "./node_modules/webpack/buildin/harmony-module.js":
-/*!*******************************************!*\
-  !*** (webpack)/buildin/harmony-module.js ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = function(originalModule) {
-	if (!originalModule.webpackPolyfill) {
-		var module = Object.create(originalModule);
-		// module.parent = undefined by default
-		if (!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function() {
-				return module.i;
-			}
-		});
-		Object.defineProperty(module, "exports", {
-			enumerable: true
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
+module.exports = (__webpack_require__(/*! dll-reference dll_28e76e2d2e17dda0d4a0 */ "dll-reference dll_28e76e2d2e17dda0d4a0"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -5631,7 +5631,7 @@ function (_Component) {
       }
     })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
   
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/next/node_modules/webpack/buildin/harmony-module.js */ "./node_modules/next/node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
@@ -6160,14 +6160,14 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_831a3634f66cb1dada0c":
+/***/ "dll-reference dll_28e76e2d2e17dda0d4a0":
 /*!*******************************************!*\
-  !*** external "dll_831a3634f66cb1dada0c" ***!
+  !*** external "dll_28e76e2d2e17dda0d4a0" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_831a3634f66cb1dada0c;
+module.exports = dll_28e76e2d2e17dda0d4a0;
 
 /***/ })
 

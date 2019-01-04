@@ -9122,7 +9122,7 @@ var convertCurry = convert.bind(null, react__WEBPACK_IMPORTED_MODULE_2___default
 
 
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../next/node_modules/webpack/buildin/global.js */ "./node_modules/next/node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -9340,7 +9340,7 @@ $export($export.P + $export.R, 'Set', { toJSON: __webpack_require__(/*! ./_colle
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/dom-helpers/node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
 exports.default = addClass;
@@ -9393,23 +9393,6 @@ function replaceClassName(origClass, classToRemove) {
 module.exports = function removeClass(element, className) {
   if (element.classList) element.classList.remove(className);else if (typeof element.className === 'string') element.className = replaceClassName(element.className, className);else element.setAttribute('class', replaceClassName(element.className && element.className.baseVal || '', className));
 };
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/node_modules/@babel/runtime/helpers/interopRequireDefault.js":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/dom-helpers/node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
-}
-
-module.exports = _interopRequireDefault;
 
 /***/ }),
 
@@ -9860,7 +9843,7 @@ function toNumber(value) {
 
 module.exports = throttle;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../next/node_modules/webpack/buildin/global.js */ "./node_modules/next/node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -10321,14 +10304,42 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 
 /***/ }),
 
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+
+module.exports = _interopRequireDefault;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/webpack/buildin/global.js":
+/*!************************************************************************************************************************!*\
+  !*** delegated ./node_modules/next/node_modules/webpack/buildin/global.js from dll-reference dll_28e76e2d2e17dda0d4a0 ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_28e76e2d2e17dda0d4a0 */ "dll-reference dll_28e76e2d2e17dda0d4a0"))("./node_modules/next/node_modules/webpack/buildin/global.js");
+
+/***/ }),
+
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_28e76e2d2e17dda0d4a0 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_28e76e2d2e17dda0d4a0 */ "dll-reference dll_28e76e2d2e17dda0d4a0"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -14025,17 +14036,6 @@ if (hadRuntime) {
 
 /***/ }),
 
-/***/ "./node_modules/webpack/buildin/global.js":
-/*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_831a3634f66cb1dada0c ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/webpack/buildin/global.js");
-
-/***/ }),
-
 /***/ "./src/components/ContactItem/index.jsx":
 /*!**********************************************!*\
   !*** ./src/components/ContactItem/index.jsx ***!
@@ -14107,10 +14107,10 @@ var ContactItem = function ContactItem(props) {
       lineNumber: 28
     },
     __self: this
-  }, "}", icon && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, icon && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
@@ -14119,17 +14119,17 @@ var ContactItem = function ContactItem(props) {
     rotation: rotation,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 31
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "".concat(_styles_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Label),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 33
     },
     __self: this
-  }, label)));
+  }, " ", label)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ContactItem);

@@ -91,14 +91,14 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": "./node_modules/react-dom/index.js",
-      "name": "./node_modules/react-dom/index.js",
+      "id": "./node_modules/next/node_modules/webpack/buildin/global.js",
+      "name": "./node_modules/next/node_modules/webpack/buildin/global.js",
       "file": "static/chunks/1.js",
       "publicPath": "static/chunks/1.js"
     },
     {
-      "id": "./node_modules/webpack/buildin/global.js",
-      "name": "./node_modules/webpack/buildin/global.js",
+      "id": "./node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
       "file": "static/chunks/1.js",
       "publicPath": "static/chunks/1.js"
     }
@@ -423,14 +423,6 @@
       "publicPath": "static/chunks/1.js"
     }
   ],
-  "@babel/runtime/helpers/interopRequireDefault": [
-    {
-      "id": "./node_modules/dom-helpers/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "name": "./node_modules/dom-helpers/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
   "lodash.throttle": [
     {
       "id": "./node_modules/lodash.throttle/index.js",
@@ -467,6 +459,14 @@
     {
       "id": "./node_modules/next/head.js",
       "name": "./node_modules/next/head.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "@babel/runtime/helpers/interopRequireDefault": [
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "name": "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "file": "static/chunks/1.js",
       "publicPath": "static/chunks/1.js"
     }

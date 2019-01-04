@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import CSSTransition from 'react-transition-group/CSSTransition';
-import WidthScreen from '../WidthScreen'
+import widthScreen from '../../hoc/widthScreen'
 import NoSSR from 'react-no-ssr';
 
 import NavigationLinks from "../NavigationLinks";
@@ -9,7 +9,7 @@ import HamburgerIcon from "../HamburgerIcon";
 import styles from "./styles.module.scss";
 
 
-export class Navbar extends Component {
+export class Navigation extends Component {
 	state = {
 		showNavigation: false,
 		items: [
@@ -107,4 +107,4 @@ export class Navbar extends Component {
 	}
 }
 
-export default WidthScreen(Navbar);
+export default widthScreen(Navigation);

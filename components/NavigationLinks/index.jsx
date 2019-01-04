@@ -4,7 +4,6 @@ import styles from "./styles.module.scss";
 import NavigationLink from "../NavigationLink";
 
 
-
 const Links = props => {
 	const { 
 			view, 

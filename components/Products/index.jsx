@@ -1,8 +1,6 @@
 import React from 'react'
 
 import styles from './styles.module.scss'
-
-import Title from "../Title"
 import Card from "../Card"
 
 const Products = () => {
@@ -24,7 +22,6 @@ const Products = () => {
     ]
     return (
             <section id='products'>
-                <Title className={styles.Title}>продукты</Title>
                 <div className={styles.Cards}>
                     {
                         cards.map(card => (

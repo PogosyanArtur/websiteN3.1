@@ -1,31 +1,327 @@
 {
+  "./noop": [
+    {
+      "id": "./node_modules/next/dist/client/noop.js",
+      "name": "./node_modules/next/dist/client/noop.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    }
+  ],
+  "../components/Map": [
+    {
+      "id": "./components/Map/index.jsx",
+      "name": "./components/Map/index.jsx",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "@mapbox/point-geometry": [
+    {
+      "id": "./node_modules/@mapbox/point-geometry/index.js",
+      "name": "./node_modules/@mapbox/point-geometry/index.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./google_heatmap": [
+    {
+      "id": "./node_modules/google-map-react/lib/google_heatmap.js",
+      "name": "./node_modules/google-map-react/lib/google_heatmap.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./google_map": [
+    {
+      "id": "./node_modules/google-map-react/lib/google_map.js",
+      "name": "./node_modules/google-map-react/lib/google_map.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./google_map_map": [
+    {
+      "id": "./node_modules/google-map-react/lib/google_map_map.js",
+      "name": "./node_modules/google-map-react/lib/google_map_map.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./google_map_markers": [
+    {
+      "id": "./node_modules/google-map-react/lib/google_map_markers.js",
+      "name": "./node_modules/google-map-react/lib/google_map_markers.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./google_map_markers_prerender": [
+    {
+      "id": "./node_modules/google-map-react/lib/google_map_markers_prerender.js",
+      "name": "./node_modules/google-map-react/lib/google_map_markers_prerender.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "google-map-react": [
+    {
+      "id": "./node_modules/google-map-react/lib/index.js",
+      "name": "./node_modules/google-map-react/lib/index.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./loaders/google_map_loader": [
+    {
+      "id": "./node_modules/google-map-react/lib/loaders/google_map_loader.js",
+      "name": "./node_modules/google-map-react/lib/loaders/google_map_loader.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./marker_dispatcher": [
+    {
+      "id": "./node_modules/google-map-react/lib/marker_dispatcher.js",
+      "name": "./node_modules/google-map-react/lib/marker_dispatcher.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/detect": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/detect.js",
+      "name": "./node_modules/google-map-react/lib/utils/detect.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/detectElementResize": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/detectElementResize.js",
+      "name": "./node_modules/google-map-react/lib/utils/detectElementResize.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/geo": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/geo.js",
+      "name": "./node_modules/google-map-react/lib/utils/geo.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/isArraysEqualEps": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/isArraysEqualEps.js",
+      "name": "./node_modules/google-map-react/lib/utils/isArraysEqualEps.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/isEmpty": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/isEmpty.js",
+      "name": "./node_modules/google-map-react/lib/utils/isEmpty.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/isNumber": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/isNumber.js",
+      "name": "./node_modules/google-map-react/lib/utils/isNumber.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/isPlainObject": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/isPlainObject.js",
+      "name": "./node_modules/google-map-react/lib/utils/isPlainObject.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./lib_geo/lat_lng": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/lib_geo/lat_lng.js",
+      "name": "./node_modules/google-map-react/lib/utils/lib_geo/lat_lng.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./lib_geo/transform": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/lib_geo/transform.js",
+      "name": "./node_modules/google-map-react/lib/utils/lib_geo/transform.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./wrap": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/lib_geo/wrap.js",
+      "name": "./node_modules/google-map-react/lib/utils/lib_geo/wrap.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/math/log2": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/math/log2.js",
+      "name": "./node_modules/google-map-react/lib/utils/math/log2.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/omit": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/omit.js",
+      "name": "./node_modules/google-map-react/lib/utils/omit.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/passiveEvents": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/passiveEvents.js",
+      "name": "./node_modules/google-map-react/lib/utils/passiveEvents.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/pick": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/pick.js",
+      "name": "./node_modules/google-map-react/lib/utils/pick.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/raf": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/raf.js",
+      "name": "./node_modules/google-map-react/lib/utils/raf.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./utils/shallowEqual": [
+    {
+      "id": "./node_modules/google-map-react/lib/utils/shallowEqual.js",
+      "name": "./node_modules/google-map-react/lib/utils/shallowEqual.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "eventemitter3": [
+    {
+      "id": "./node_modules/google-map-react/node_modules/eventemitter3/index.js",
+      "name": "./node_modules/google-map-react/node_modules/eventemitter3/index.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "scriptjs": [
+    {
+      "id": "./node_modules/scriptjs/dist/script.js",
+      "name": "./node_modules/scriptjs/dist/script.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "./styles.module.scss": [
+    {
+      "id": "./components/AboutUs/styles.module.scss",
+      "name": "./components/AboutUs/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/Achievement/styles.module.scss",
+      "name": "./components/Achievement/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/Card/styles.module.scss",
+      "name": "./components/Card/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/ContactItem/styles.module.scss",
+      "name": "./components/ContactItem/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/HamburgerIcon/styles.module.scss",
+      "name": "./components/HamburgerIcon/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/Logo/styles.module.scss",
+      "name": "./components/Logo/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/Navigation/styles.module.scss",
+      "name": "./components/Navigation/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/NavigationLink/styles.module.scss",
+      "name": "./components/NavigationLink/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/NavigationLinks/styles.module.scss",
+      "name": "./components/NavigationLinks/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/Products/styles.module.scss",
+      "name": "./components/Products/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/Title/styles.module.scss",
+      "name": "./components/Title/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/TopLine/styles.module.scss",
+      "name": "./components/TopLine/styles.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./styels.module.scss": [
+    {
+      "id": "./components/Banner/styels.module.scss",
+      "name": "./components/Banner/styels.module.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
   "undefined": [
     {
-      "id": 4,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 6,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 7,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 8,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
       "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -37,7 +333,7 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 5,
+      "id": 7,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -55,7 +351,19 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
       "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -67,7 +375,19 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
       "id": 16,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 5,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -75,94 +395,6 @@
     {
       "id": 17,
       "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 18,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./styels.module.scss": [
-    {
-      "id": "./components/Banner/styels.module.scss",
-      "name": "./components/Banner/styels.module.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./styles.module.scss": [
-    {
-      "id": "./components/Title/styles.module.scss",
-      "name": "./components/Title/styles.module.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./components/Logo/styles.module.scss",
-      "name": "./components/Logo/styles.module.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./components/Card/styles.module.scss",
-      "name": "./components/Card/styles.module.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./components/HamburgerIcon/styles.module.scss",
-      "name": "./components/HamburgerIcon/styles.module.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./components/Achievement/styles.module.scss",
-      "name": "./components/Achievement/styles.module.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./components/Navigation/styles.module.scss",
-      "name": "./components/Navigation/styles.module.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./components/Products/styles.module.scss",
-      "name": "./components/Products/styles.module.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./components/TopLine/styles.module.scss",
-      "name": "./components/TopLine/styles.module.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./components/NavigationLinks/styles.module.scss",
-      "name": "./components/NavigationLinks/styles.module.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./components/ContactItem/styles.module.scss",
-      "name": "./components/ContactItem/styles.module.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./components/AboutUs/styles.module.scss",
-      "name": "./components/AboutUs/styles.module.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./components/NavigationLink/styles.module.scss",
-      "name": "./components/NavigationLink/styles.module.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -173,230 +405,6 @@
       "name": "./layout/style.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./noop": [
-    {
-      "id": "./node_modules/next/dist/client/noop.js",
-      "name": "./node_modules/next/dist/client/noop.js",
-      "file": "static/chunks/0.js",
-      "publicPath": "static/chunks/0.js"
-    }
-  ],
-  "../layout": [
-    {
-      "id": "./layout/index.jsx",
-      "name": "./layout/index.jsx",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "../core-js/array/from": [
-    {
-      "id": "./node_modules/@babel/runtime-corejs2/core-js/array/from.js",
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/array/from.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "../core-js/is-iterable": [
-    {
-      "id": "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js",
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "@babel/runtime-corejs2/core-js/set": [
-    {
-      "id": "./node_modules/@babel/runtime-corejs2/core-js/set.js",
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/set.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "./arrayWithoutHoles": [
-    {
-      "id": "./node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js",
-      "name": "./node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "@babel/runtime-corejs2/helpers/asyncToGenerator": [
-    {
-      "id": "./node_modules/@babel/runtime-corejs2/helpers/asyncToGenerator.js",
-      "name": "./node_modules/@babel/runtime-corejs2/helpers/asyncToGenerator.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "@babel/runtime-corejs2/helpers/interopRequireWildcard": [
-    {
-      "id": "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js",
-      "name": "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "./iterableToArray": [
-    {
-      "id": "./node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js",
-      "name": "./node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "./nonIterableSpread": [
-    {
-      "id": "./node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js",
-      "name": "./node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "@babel/runtime-corejs2/helpers/toConsumableArray": [
-    {
-      "id": "./node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js",
-      "name": "./node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "@babel/runtime-corejs2/regenerator": [
-    {
-      "id": "./node_modules/@babel/runtime-corejs2/regenerator/index.js",
-      "name": "./node_modules/@babel/runtime-corejs2/regenerator/index.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "core-js/library/fn/array/from": [
-    {
-      "id": "./node_modules/core-js/library/fn/array/from.js",
-      "name": "./node_modules/core-js/library/fn/array/from.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "core-js/library/fn/is-iterable": [
-    {
-      "id": "./node_modules/core-js/library/fn/is-iterable.js",
-      "name": "./node_modules/core-js/library/fn/is-iterable.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "core-js/library/fn/set": [
-    {
-      "id": "./node_modules/core-js/library/fn/set.js",
-      "name": "./node_modules/core-js/library/fn/set.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "./_create-property": [
-    {
-      "id": "./node_modules/core-js/library/modules/_create-property.js",
-      "name": "./node_modules/core-js/library/modules/_create-property.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "../modules/core.is-iterable": [
-    {
-      "id": "./node_modules/core-js/library/modules/core.is-iterable.js",
-      "name": "./node_modules/core-js/library/modules/core.is-iterable.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "../../modules/es6.array.from": [
-    {
-      "id": "./node_modules/core-js/library/modules/es6.array.from.js",
-      "name": "./node_modules/core-js/library/modules/es6.array.from.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "../modules/es6.set": [
-    {
-      "id": "./node_modules/core-js/library/modules/es6.set.js",
-      "name": "./node_modules/core-js/library/modules/es6.set.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "../modules/es7.set.from": [
-    {
-      "id": "./node_modules/core-js/library/modules/es7.set.from.js",
-      "name": "./node_modules/core-js/library/modules/es7.set.from.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "../modules/es7.set.of": [
-    {
-      "id": "./node_modules/core-js/library/modules/es7.set.of.js",
-      "name": "./node_modules/core-js/library/modules/es7.set.of.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "../modules/es7.set.to-json": [
-    {
-      "id": "./node_modules/core-js/library/modules/es7.set.to-json.js",
-      "name": "./node_modules/core-js/library/modules/es7.set.to-json.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "./head": [
-    {
-      "id": "./node_modules/next/dist/lib/head.js",
-      "name": "./node_modules/next/dist/lib/head.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "./side-effect": [
-    {
-      "id": "./node_modules/next/dist/lib/side-effect.js",
-      "name": "./node_modules/next/dist/lib/side-effect.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "../lib/utils": [
-    {
-      "id": "./node_modules/next/dist/lib/utils.js",
-      "name": "./node_modules/next/dist/lib/utils.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "next/head": [
-    {
-      "id": "./node_modules/next/head.js",
-      "name": "./node_modules/next/head.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "regenerator-runtime": [
-    {
-      "id": "./node_modules/regenerator-runtime/runtime-module.js",
-      "name": "./node_modules/regenerator-runtime/runtime-module.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "./runtime": [
-    {
-      "id": "./node_modules/regenerator-runtime/runtime.js",
-      "name": "./node_modules/regenerator-runtime/runtime.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
     }
   ]
 }

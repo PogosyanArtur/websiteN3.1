@@ -4,6 +4,6 @@ module.exports = withSass({
   cssModules: true,
   cssLoaderOptions: {
     importLoaders: 1,
-    localIdentName: "[local]_[hash:base64:5]",
+    localIdentName:'[folder]__[local]--[hash:base64:5]'
   }
 })

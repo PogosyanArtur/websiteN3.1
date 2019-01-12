@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import NavigationLinks from './index';
 const styles = {
   backgroundColor: "#ccc",
-  height: '60px',
+  minHeight: '60px',
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',

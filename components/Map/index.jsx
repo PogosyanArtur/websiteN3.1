@@ -1,11 +1,76 @@
 import React, { Component } from 'react';
+import GoogleMapReact from 'google-map-react';
+import Logo from '../Logo'
+
+const styles = {
+  backgroundColor:"rgb(237, 205, 31)",
+  width:'130px',
+  height:'50px',
+  display:'flex',
+  justifyContent:"center",
+  alignItems:"center",
+  borderTopLeftRadius:"40px",
+  borderTopRightRadius:"30px",
+  borderBottomRightRadius:"30px",
+}
+
+const AnyReactComponent = () => <div style={styles}><Logo/></div>;
+
+
 
 class SimpleMap extends Component {
+  static defaultProps = {
+    center: {
+      lat: 55.643421,
+      lng: 37.850379
+    },
+    zoom: 15,
+    option:{
+      styles:[
+        {
+          "elementType": "geometry.fill",
+          "stylers": [
+            {
+              "color": "#1e2d3b"
+            },
+            {
+              "visibility": "on"
+            }
+          ]
+        },
+        {
+          "elementType": "labels.text",
+          "stylers": [
+            {
+              "color": "#edcd75"
+            },
+            {
+              "visibility": "simplified"
+            },
+            {
+              "weight": 2.5
+            }
+          ]
+        }
+      ]
+    }
+  };
+
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div className={this.props.className}>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2251.6150908963155!2d37.8454563162219!3d55.64350998052426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDM4JzM2LjYiTiAzN8KwNTAnNTEuNSJF!5e0!3m2!1sen!2sru!4v1546531559497" width="100%" height="600"></iframe>
+      <div style={{ height: '600px', width: '100%' }}>
+        <GoogleMapReact
+          bootstrapURLKeys={{ key: 'AIzaSyBGTv9kQmJjzdshxaBdaqZFj6HqKKL81nE' }}
+          defaultCenter={this.props.center}
+          defaultZoom={this.props.zoom}
+          options={this.props.option}
+        >
+          <AnyReactComponent
+            lat={55.643421}
+            lng={37.850379}
+          />
+        </GoogleMapReact>
       </div>
     );
   }

@@ -64,7 +64,7 @@ export class Navigation extends Component {
 		const { showNavigation, items } = this.state;
 
 		return (
-			<div className={`${styles.Navbar}`}>
+			<div className={`${styles.Block}`}>
 				<div className={`${styles.Container}`}>
 					<div className={`${styles.LogoBox} `}>
 						{!showNavigation && <Logo />}
@@ -79,7 +79,7 @@ export class Navigation extends Component {
 				</div>
 
 				{isMobile
-					&& <HamburgerIcon active={showNavigation} onClicked={this.handleMenuBarToggle} className={styles.Navbar__HamburgerIcon} />}
+					&& <HamburgerIcon active={showNavigation} onClicked={this.handleMenuBarToggle} className={styles.HamburgerIcon} />}
 
 
 				<CSSTransition
@@ -92,11 +92,11 @@ export class Navigation extends Component {
 						enterActive: styles['FadeOut-enter-active'],
 						exitActive: styles['FadeOut-exit-active'],
 					}}>
-					<div className={`${styles.Navbar__Backdrop}`}>
+					<div className={`${styles.Backdrop}`}>
 						<NavigationLinks
 							items={items}
 							view="murky"
-							className={` ${styles.Navbar__Navigation} `} 
+							className={` ${styles.Navigation} `} 
 							onSetActive={(e, to) => this.handleSetActive(e, to)}
 							click={this.closeNavigation}/>
 					</div>

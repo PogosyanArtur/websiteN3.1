@@ -12,7 +12,7 @@ module.exports = {
               loader: 'css-loader',
               options: {
                 modules: true,
-                localIdentName:'[name]_[local]_[hash:base64]'
+                localIdentName:'[folder]__[local]--[hash:base64:5]'
               },
             },
           ],
@@ -27,7 +27,7 @@ module.exports = {
               loader: 'css-loader',
               options: {
                 modules: true,
-                localIdentName:'[name]_[local]_[hash:base64]'
+                localIdentName:'[folder]__[local]--[hash:base64:5]'
               },
             },
             {

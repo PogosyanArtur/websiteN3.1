@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styles from './styles.module.scss'
-import Title from '../Title'
+import Title from '../../components/Title/Title'
 
 
 const AboutUs = () => {

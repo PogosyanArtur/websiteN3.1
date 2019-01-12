@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
-import Logo from '../Logo'
+
+import Logo from './Logo/Logo'
 
 const styles = {
-  backgroundColor:"rgb(237, 205, 31)",
-  width:'130px',
-  height:'50px',
-  display:'flex',
-  justifyContent:"center",
-  alignItems:"center",
-  borderTopLeftRadius:"40px",
-  borderTopRightRadius:"30px",
-  borderBottomRightRadius:"30px",
+  backgroundColor: "rgb(237, 205, 31)",
+  width: '130px',
+  height: '50px',
+  display: 'flex',
+  justifyContent: "center",
+  alignItems: "center",
+  borderTopLeftRadius: "40px",
+  borderTopRightRadius: "30px",
+  borderBottomRightRadius: "30px",
 }
 
-const AnyReactComponent = () => <div style={styles}><Logo/></div>;
+const AnyReactComponent = () => <div style={styles}><Logo /></div>;
 
 
 
@@ -25,8 +26,8 @@ class SimpleMap extends Component {
       lng: 37.850379
     },
     zoom: 15,
-    option:{
-      styles:[
+    option: {
+      styles: [
         {
           "elementType": "geometry.fill",
           "stylers": [
@@ -59,7 +60,7 @@ class SimpleMap extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: '600px', width: '100%' }}>
+     <div style={{ height: '600px', width: '100%' }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: 'AIzaSyBGTv9kQmJjzdshxaBdaqZFj6HqKKL81nE' }}
           defaultCenter={this.props.center}

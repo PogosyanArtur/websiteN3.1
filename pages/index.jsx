@@ -1,19 +1,13 @@
 import React, {Component} from 'react'
-import dynamic from 'next/dynamic'
-
-const Map = dynamic(() => import("../components/Map"), {
-  loading: () => '',
-  ssr: true
-})
 
 import Layout from '../layout'
-import Banner from '../components/Banner'
-import Products from '../components/Products'
-import AboutUs from '../components/AboutUs'
-import Achievement from '../components/Achievement'
-import Navigation  from '../components/Navigation'
-import TopLine from '../components/TopLine'
-import Title from "../components/Title"
+import Banner from '../views/Banner'
+import Products from '../views/Products'
+import AboutUs from '../views/AboutUs'
+import Achievement from '../views/Achievement'
+import Navigation  from '../views/Navigation'
+import TopLine from '../views/TopLine'
+import Contacts from '../views/Contacts'
 
 
 
@@ -25,12 +19,10 @@ class index extends Component {
         <TopLine />
         <Navigation />
         <Banner/>
-        <Title>продукты</Title>
         <Products />
         <AboutUs/>
         <Achievement />
-        <Title>контакты</Title>
-        <Map/>
+        <Contacts/>
       </Layout>
     )
   }

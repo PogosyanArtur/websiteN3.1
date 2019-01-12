@@ -3,9 +3,9 @@ import CSSTransition from 'react-transition-group/CSSTransition';
 import widthScreen from '../../hoc/widthScreen'
 import NoSSR from 'react-no-ssr';
 
-import NavigationLinks from "../NavigationLinks";
-import Logo from "../Logo";
-import HamburgerIcon from "../HamburgerIcon";
+import NavigationLinks from "../../components/NavigationLinks/NavigationLinks";
+import Logo from "../../components/Logo/Logo";
+import HamburgerIcon from "../../components/HamburgerIcon/HamburgerIcon";
 import styles from "./styles.module.scss";
 
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./styles.module.scss";
-import NavigationLink from "../NavigationLink";
+import NavigationLink from "../NavigationLink/NavigationLink";
 
 
 const Links = props => {

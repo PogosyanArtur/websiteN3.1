@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import widthScreen from '../../hoc/widthScreen'
-import styles from './styles.module.scss'
-import ContactItem from '../ContactItem'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import widthScreen from '../../hoc/widthScreen'
+import styles from './styles.module.scss'
+
+import ContactItem from '../../components/ContactItem/ContactItem'
 import contacts from '../../data/contacts'
 
 

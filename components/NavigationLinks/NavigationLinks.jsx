@@ -20,7 +20,7 @@ const Links = props => {
 				return <NavigationLink 
 					label={item.label} 
 					active={item.active} 
-					onSetActive={(e) => onSetActive(e, item.to)} 
+					onSetActive={onSetActive} 
 					to={item.to} 
 					key={index} 
 					view={view}

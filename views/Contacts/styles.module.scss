@@ -1,0 +1,84 @@
+@import '../../styles/index.scss';
+.Title {
+    margin-bottom: 40px;
+}
+.Label {
+    font-family: $ff-alpha;
+    font-size: 30px;
+    font-weight: normal;
+    color: $main1;
+    margin: 0;
+    padding: 20px 0 20px 0;
+}
+
+.Content {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.ContentContainer {
+    width: 450px;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.Context {
+    font-family: $ff-alpha;
+}
+
+.Link {
+    font-family: $ff-alpha;
+    text-decoration: none;
+    color: $main1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Link_lg {
+    font-size: 30px;
+}
+.Controls{
+    width: 100%;
+    margin: 5px 0;
+    padding: 0 15px;
+    font-size: 20px;
+    color: $main1;
+    border: 2px solid $accent;
+    border-radius: 5px;
+}
+.Input {
+    height: 35px;
+}
+
+.Textarea {
+    height: 100px;
+    resize:none   
+}
+
+.Form {
+    margin-top: 40px;
+}
+
+.Submit{
+    padding: 10px 30px;
+    background-color: $main;
+    border:none;
+    color:$accent;
+    font-family: $ff-alpha;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.Submit:hover{
+    background-color: rgba($main,0.8)
+}
+
+.TelephoneLine {
+    height: 8px;
+    width:100px;
+    background-color: $accent;
+    margin: 10px 0;
+}

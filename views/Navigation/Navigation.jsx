@@ -3,9 +3,9 @@ import CSSTransition from 'react-transition-group/CSSTransition';
 import widthScreen from '../../hoc/widthScreen'
 import NoSSR from 'react-no-ssr';
 
-import NavigationLinks from "../../components/NavigationLinks/NavigationLinks";
-import Logo from "../../components/Logo/Logo";
-import HamburgerIcon from "../../components/HamburgerIcon/HamburgerIcon";
+import NavigationLinks from "../../components/NavigationLinks";
+import Logo from "../../components/Logo";
+import HamburgerIcon from "../../components/HamburgerIcon";
 import styles from "./styles.module.scss";
 
 
@@ -29,10 +29,15 @@ export class Navigation extends Component {
 				active: ''
 			},
 			{
+				label: "мы здесь",
+				to: "map",
+				active: ''
+			},
+			{
 				label: "контакты",
 				to: "contacts",
 				active: ''
-			},
+			}
 		]
 	}
 
@@ -50,7 +55,7 @@ export class Navigation extends Component {
 		window.removeEventListener("resize", this.closeNavigation);
 	}
 
-	handleSetActive = (e, to) => {
+	handleSetActive = (to) => {
 		const items = [ ...this.state.items ]
 		items.forEach(item => item.active = "")
 		const itemIndex = items.findIndex(item => item.to === to)
@@ -72,7 +77,7 @@ export class Navigation extends Component {
 
 					{!isMobile
 						&& <NoSSR>
-							<NavigationLinks items={items} onSetActive={(e, to) => this.handleSetActive(e, to)}/>
+							<NavigationLinks items={items} onSetActive={this.handleSetActive}/>
 						</NoSSR>
 					}
 
@@ -97,7 +102,7 @@ export class Navigation extends Component {
 							items={items}
 							view="murky"
 							className={` ${styles.Navigation} `} 
-							onSetActive={(e, to) => this.handleSetActive(e, to)}
+							onSetActive={this.handleSetActive}
 							click={this.closeNavigation}/>
 					</div>
 				</CSSTransition>

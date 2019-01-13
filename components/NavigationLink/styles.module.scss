@@ -17,7 +17,8 @@
     transition: color 0.3s;
 
     &_active,
-    &:hover {
+    &:hover,
+    &:focus {
         color: $accent;
     }
 

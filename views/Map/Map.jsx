@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 
-import Logo from './Logo/Logo'
+import Logo from '../../components/Logo/Logo'
+import Title from '../../components/Title'
+
+import style from './styles.module.scss'
 
 const styles = {
   backgroundColor: "rgb(237, 205, 31)",
@@ -60,19 +63,22 @@ class SimpleMap extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-     <div style={{ height: '600px', width: '100%' }}>
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: 'AIzaSyBGTv9kQmJjzdshxaBdaqZFj6HqKKL81nE' }}
-          defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}
-          options={this.props.option}
-        >
-          <AnyReactComponent
-            lat={55.643421}
-            lng={37.850379}
-          />
-        </GoogleMapReact>
-      </div>
+      <section id="map">
+        <Title className={style.Title}>мы здесь</Title>
+        <div style={{ height: '600px', width: '100%' }}>
+          <GoogleMapReact
+            bootstrapURLKeys={{ key: 'AIzaSyBGTv9kQmJjzdshxaBdaqZFj6HqKKL81nE' }}
+            defaultCenter={this.props.center}
+            defaultZoom={this.props.zoom}
+            options={this.props.option}
+          >
+            <AnyReactComponent
+              lat={55.643421}
+              lng={37.850379}
+            />
+          </GoogleMapReact>
+        </div>
+      </section>
     );
   }
 }

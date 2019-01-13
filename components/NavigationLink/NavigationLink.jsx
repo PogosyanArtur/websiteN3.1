@@ -27,11 +27,12 @@ const NavigationLink = (props) => {
                 to={to} 
                 spy={true} 
                 smooth={true} 
-                offset={-90} 
+                offset={-110} 
                 duration={500}
                 onSetActive={onSetActive}
                 delay={10}
-                onClick={click}>                
+                onClick={click}
+                ignoreCancelEvents={false}>              
                <span>{label}</span> 
             </Link>
     )

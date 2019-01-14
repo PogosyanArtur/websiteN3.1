@@ -1,7 +1,13 @@
 @import '../../styles/index.scss';
+
 .Title {
     margin-bottom: 40px;
+
+    @include down(lg) {
+        margin-bottom: 10px;
+    }
 }
+
 .Label {
     font-family: $ff-alpha;
     font-size: 30px;
@@ -9,12 +15,24 @@
     color: $main1;
     margin: 0;
     padding: 20px 0 20px 0;
+    @include down(sm) {
+        font-size: 20px;
+        padding: 0;
+    }
 }
 
 .Content {
     display: flex;
     justify-content: center;
     padding: 50px;
+
+    @include down(lg) {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+
+    }
 }
 
 .ContentContainer {
@@ -22,7 +40,14 @@
     padding: 0 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
+
+    @include down(lg) {
+        margin-top: 30px;
+    }
+    @include down(sm) {
+        width: 100%;
+    }
 }
 
 .Context {
@@ -39,8 +64,12 @@
 
 .Link_lg {
     font-size: 30px;
+    @include down(sm) {
+    font-size: 16px;
+    }
 }
-.Controls{
+
+.Controls {
     width: 100%;
     margin: 5px 0;
     padding: 0 15px;
@@ -49,36 +78,38 @@
     border: 2px solid $accent;
     border-radius: 5px;
 }
+
 .Input {
     height: 35px;
 }
 
 .Textarea {
     height: 100px;
-    resize:none   
+    resize: none
 }
 
 .Form {
     margin-top: 40px;
 }
 
-.Submit{
+.Submit {
     padding: 10px 30px;
     background-color: $main;
-    border:none;
-    color:$accent;
+    border: none;
+    color: $accent;
     font-family: $ff-alpha;
     font-size: 20px;
     cursor: pointer;
     transition: background 0.3s;
 }
-.Submit:hover{
-    background-color: rgba($main,0.8)
+
+.Submit:hover {
+    background-color: rgba($main, 0.8)
 }
 
 .TelephoneLine {
     height: 8px;
-    width:100px;
+    width: 100px;
     background-color: $accent;
     margin: 10px 0;
 }

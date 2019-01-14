@@ -9,6 +9,7 @@ import Achievement from '../views/Achievement'
 import Navigation  from '../views/Navigation'
 import TopLine from '../views/TopLine'
 import Contacts from '../views/Contacts'
+import Footer from '../views/Footer'
 
 const Map = dynamic(() => import("../views/Map"), {
   loading: () => '',
@@ -22,23 +23,17 @@ class index extends Component {
   render(){
     return (
       <Layout>
-        <TopLine />
-        <Navigation />
+        <header>
+          <TopLine />
+          <Navigation />
+        </header>
         <Banner/>
         <Products />
         <AboutUs/>
         <Achievement />
         <Map/>
         <Contacts/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        <Footer/>
       </Layout>
     )
   }

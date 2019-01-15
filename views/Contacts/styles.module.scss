@@ -52,6 +52,7 @@
 
 .Context {
     font-family: $ff-alpha;
+    line-height: 1.5;
 }
 
 .Link {
@@ -69,47 +70,13 @@
     }
 }
 
-.Controls {
-    width: 100%;
-    margin: 5px 0;
-    padding: 0 15px;
-    font-size: 20px;
-    color: $main1;
-    border: 2px solid $accent;
-    border-radius: 5px;
-}
-
-.Input {
-    height: 35px;
-}
-
-.Textarea {
-    height: 100px;
-    resize: none
-}
-
-.Form {
-    margin-top: 40px;
-}
-
-.Submit {
-    padding: 10px 30px;
-    background-color: $main;
-    border: none;
-    color: $accent;
-    font-family: $ff-alpha;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.Submit:hover {
-    background-color: rgba($main, 0.8)
-}
-
 .TelephoneLine {
     height: 8px;
     width: 100px;
     background-color: $accent;
     margin: 10px 0;
+}
+
+.Form {
+    margin-top: 40px;
 }

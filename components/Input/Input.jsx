@@ -7,56 +7,89 @@ const Input = (props) => {
         elementConfig,
         changed,
         value,
-        className,
-        label
+        label,
+        valid,
+        validation,
+        touch,
+        disable
     } = props
 
     let inputElement = null;
+    let invalidStyle = ""
+    let invalid = false;
+
+    if(validation && touch && valid){
+        invalidStyle = styles.InvalidStyle
+        invalid = true;
+    }
+
 
     switch (elementType) {
         case 'input':
             if (elementConfig.type === "submit") {
-                inputElement = <input
-                    className={`${styles.Controls} ${styles.Submit} ${className}`}
-                    {...elementConfig}
-                    onChange={changed}
-                    value={value}
-                />
+                inputElement = (
+                    <div>
+                        <input
+                            className={`${styles.Controls} ${styles.Submit}  ${invalidStyle} ${ disable ? styles.Submit_disable : "" }`}
+                            {...elementConfig}
+                            onChange={changed}
+                            value={value}
+                        />
+                    </div>
+                )
                 break;
+
             } else {
-                inputElement = <input
-                    className={`${styles.Controls} ${styles.Input} ${className}`}
-                    {...elementConfig}
-                    onChange={changed}
-                    value={value}
-                />
+                inputElement = (
+                    <div>
+                        {label && <label className={styles.Label}>{label}</label>}
+                        {invalid && <span className={styles.InvalidLabel}> "Неправильно заполнено поле" </span>}
+                        <input
+                            className={`${styles.Controls}  ${styles.Input}  ${invalidStyle}`}
+                            {...elementConfig}
+                            onChange={changed}
+                            value={value}
+                        />
+                    </div>
+                )
                 break;
             }
 
         case 'textarea':
-            inputElement = <textarea
-                className={`${styles.Controls} ${styles.Textarea} ${className}`}
-                {...elementConfig}
-                onChange={changed}
-                value={value}
-            />
+            inputElement =
+                (<div>
+                    {label && <label className={styles.Label}>{label}</label>}
+                    {invalid && <span className={styles.InvalidLabel}> "Неправильно заполнено поле" </span>}
+
+                    <textarea
+                        className={`${styles.Controls} ${styles.Textarea} ${invalidStyle}`}
+                        {...elementConfig}
+                        onChange={changed}
+                        value={value}
+                    />
+                </div>
+                )
             break;
         default:
-            inputElement = <input
-                className={`${styles.Controls} ${styles.Input} ${className}`}
-                {...elementConfig}
-                onChange={changed}
-                value={value}
-            />
+        inputElement = (
+            <div>
+                {label && <label className={styles.Label}>{label}</label>}
+                {invalid && <span className={styles.InvalidLabel}> "Неправильно заполнено поле" </span>}
+                <input
+                    className={`${styles.Controls}  ${styles.Input}  ${invalidStyle}`}
+                    {...elementConfig}
+                    onChange={changed}
+                    value={value}
+                />
+            </div>
+        )
     }
 
 
     return (
-        <div>
-            {label && <label className={styles.Label}>{label}</label>}            
+        <React.Fragment>
             {inputElement}
-        </div>
-    )
+        </React.Fragment>)
 }
 
 export default Input

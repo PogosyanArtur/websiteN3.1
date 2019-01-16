@@ -1,10 +1,15 @@
 @import '../../styles/index.scss';
 
-.Label{
+.Label,
+.InvalidLabel{
     color: $main;
     font-family: $ff-alpha;
     font-size: 12px;
     font-style: italic;
+}
+
+.InvalidLabel{
+    color:red;
 }
 
 .Controls {
@@ -16,6 +21,12 @@
     border: 2px solid $accent;
     border-radius: 5px;
 }
+
+.InvalidStyle {
+    border: 2px solid red;
+}
+
+
 
 .Input {
     height: 35px;
@@ -36,7 +47,13 @@
     cursor: pointer;
     transition: background 0.3s;
 }
-
 .Submit:hover {
     background-color: rgba($main, 0.8)
+}
+
+.Submit_disable,
+.Submit_disable:hover {
+    background-color: $gray100;
+    color: $white;
+    cursor: default;
 }
